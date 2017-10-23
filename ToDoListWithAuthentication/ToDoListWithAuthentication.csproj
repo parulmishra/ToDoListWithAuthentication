@@ -28,11 +28,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Remove="Models\ToDoContext.cs" />
-    <Compile Remove="Models\Repositories\IItemRepository.cs" />
-    <Compile Remove="Models\Repositories\EFItemRepository.cs" />
+    <None Remove="Views\Register.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <None Remove="Views\Register.cshtml" />
+    <Content Remove="Views\Register.cshtml" />
   </ItemGroup>
 </Project>
